@@ -20,7 +20,7 @@ public static int OvenTemp(int lookup)
 		bool a = Array.Exists(array, element => element == lookup.ToString());
     
     //value above maximum
-    if (a >= 501) {return 500;}
+    if (lookup >= 501) {return 500;}
     
 		//is an acceptable number
 		if (a == true) {return lookup;}
